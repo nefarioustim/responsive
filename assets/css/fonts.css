@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'Museo';
+    src: url('../fonts/Museo300-Regular-webfont.eot');
+    src: local('☺'), url('../fonts/Museo300-Regular-webfont.woff') format('woff'), url('../fonts/Museo300-Regular-webfont.ttf') format('truetype'), url('../fonts/Museo300-Regular-webfont.svg#webfontX4pGz9fc') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo';
+    src: url('../fonts/Museo500-Regular-webfont.eot');
+    src: local('☺'), url('../fonts/Museo500-Regular-webfont.woff') format('woff'), url('../fonts/Museo500-Regular-webfont.ttf') format('truetype'), url('../fonts/Museo500-Regular-webfont.svg#webfontX4pGz9fc') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo';
+    src: url('../fonts/Museo700-Regular-webfont.eot');
+    src: local('☺'), url('../fonts/Museo700-Regular-webfont.woff') format('woff'), url('../fonts/Museo700-Regular-webfont.ttf') format('truetype'), url('../fonts/Museo700-Regular-webfont.svg#webfontX4pGz9fc') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Slab';
+    src: url('../fonts/museo_slab_500-webfont.eot');
+    src: local('☺'), url('../fonts/museo_slab_500-webfont.woff') format('woff'), url('../fonts/museo_slab_500-webfont.ttf') format('truetype'), url('../fonts/museo_slab_500-webfont.svg#webfontX4pGz9fc') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Slab';
+    src: url('../fonts/museo_slab_500italic-webfont.eot');
+    src: local('☺'), url('../fonts/museo_slab_500italic-webfont.woff') format('woff'), url('../fonts/museo_slab_500italic-webfont.ttf') format('truetype'), url('../fonts/museo_slab_500italic-webfont.svg#webfontX4pGz9fc') format('svg');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lobster 13';
+    src: url('../fonts/Lobster_1.3-webfont.eot');
+    src: local('☺'), url('../fonts/Lobster_1.3-webfont.woff') format('woff'), url('../fonts/Lobster_1.3-webfont.ttf') format('truetype'), url('../fonts/Lobster_1.3-webfont.svg#webfontX4pGz9fc') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*
+    "Museo Slab", Rockwell, serif;
+    "Museo", "Palatino", "Hoefler Text", "Baskerville", "Georgia", "Times New Roman", serif;
+    "Lobster 13", cursive;
+*/
+
+/* Modular Scale
+----------------------
+http://modularscale.com/scale/?px1=16&px2=80&ra1=1.618&ra2=0
+
+16px @ 1:1.618
+80px @ 1:1.618
+----------------------*/
+
+body {
+	font: 16px/1.4 "Museo Slab", Rockwell, serif;
+	*font-size: small;
+	*font-size: x-small;
+}
+
+select,
+input,
+button,
+textarea {
+	font: 99% "Museo Slab", Rockwell, serif;
+}
+
+table {
+	font-size: inherit;
+	font-size: 100%;
+}
+
+code,
+kbd,
+samp,
+tt {
+	font-family: monaco, "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
+	*font-size: 108%;
+	line-height: 1.2;
+}
+
+h1 {
+    font: 80px/1.2 "Lobster 13", cursive;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Museo", "Palatino", "Hoefler Text", "Baskerville", "Georgia", "Times New Roman", serif;
+	font-weight: bold;
+}

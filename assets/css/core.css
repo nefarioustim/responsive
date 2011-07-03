@@ -1,0 +1,68 @@
+/* Palette: "Let them eat cake"
+--------------------
+http://www.colourlovers.com/palette/49963/let_them_eat_cake
+
+#774F38 - Banquet
+#E08E79 - Strawberry sugar
+#F1D4AF - Creme de la creme
+#ECE5CE - Powderpuff
+#C5E0DC - Charlotte
+--------------------*/
+/* Modular Scale
+----------------------
+http://modularscale.com/scale/?px1=16&px2=80&ra1=1.618&ra2=0
+
+16px @ 1:1.618
+80px @ 1:1.618
+----------------------*/
+
+html {
+    background: #F1D4AF;
+/*    background: -webkit-gradient(linear, left top, left bottom, from(#F1D4AF), to(#ECE5CE));
+    background: -moz-linear-gradient(top,  #F1D4AF,  #ECE5CE);
+    background-size: auto;*/
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    background: #ECE5CE;
+    width: 90%;
+    margin: 0 auto;
+    border-top: 8px solid #774F38;
+    border-bottom: 8px solid #774F38;
+}
+
+h1 {
+    color: #fff;
+    text-shadow:
+        0px 1px 0px #999,
+        0px 2px 0px #888,
+        0px 3px 0px #777,
+        0px 4px 0px #666,
+        0px 5px 0px #555,
+        0px 6px 0px #444,
+        0px 7px 0px #333,
+        0px 8px 7px #001135;
+}
+
+.occupation {
+    font-size: 30px;
+    color: #fff;
+}
+
+#accessibility,
+#footer {
+    font-size: 11px;
+    text-align: center;
+    padding: 8px;
+}
+#accessibility a,
+#footer a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#masthead {
+    background: #E08E79;
+}
